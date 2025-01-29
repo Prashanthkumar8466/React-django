@@ -1,0 +1,27 @@
+.contact-container{
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    width: 400px;
+    margin-top: 70px;
+}
+.contact-container h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+@media (max-width:720px){
+    .contact-container{
+        width: 300px;
+        margin-top:10px;
+    }
+}

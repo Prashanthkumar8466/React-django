@@ -1,0 +1,10 @@
+django
+djangorestframework
+pip install Pillow
+django-cors-headers
+djangorestframework-simplejwt
+#---react-----
+npm install react-router-dom
+npm install react-bootstrap bootstrap
+npm install @reduxjs/toolkit react-redux
+npm install axios

@@ -1,0 +1,85 @@
+.product-details h1{
+    padding-bottom: 10px;
+    margin: 20px;
+    border-bottom:2px solid skyblue;
+}
+.productdetails{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.product-page {
+    display: flex;
+}
+.flex{
+    display: flex;
+    width: 600px;
+}
+.finalaccount{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.add-to-cart{
+    background-color:skyblue;
+    border: None;
+    width: 50%;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.product-image img{
+    height: 450px;
+    width: 400px;
+    margin-right: 99px;
+    margin-top: 50px;
+}
+.quantity{
+    display: flex;
+}
+.quantity select{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 20px;
+    padding:5px;
+}
+select option{
+    cursor: pointer;
+}
+.tab{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-button{
+    background-color: transparent;
+    border: none;
+}
+.slider-view{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.slide-img{
+    margin-left: 70px;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.popupmessagesucess{
+    display: flex;
+    position: absolute;
+    color: green;
+    margin-left:250px;
+    margin-top: -5px;
+}

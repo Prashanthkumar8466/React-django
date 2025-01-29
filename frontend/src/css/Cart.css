@@ -1,0 +1,270 @@
+
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ac3030; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #87af66; 
+  }
+.cart{
+    display: flex;
+    width: 90%;
+    margin-left:10%;
+}
+.carttittle{
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: #0a0a0a 1px solid;
+}
+.cart .cart-container{
+    height: 70vh;
+    width: 800px;
+    overflow-y: scroll;
+}
+.cart .cart-container .Title{
+    display: flex;
+    justify-content: space-between;
+}
+.cart .cart-container .Title p{
+    color: #000000;
+    font-weight: bold;
+}
+.cart .summary{
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.cart-items img{
+    width: 100px;
+    margin-right: 20px;
+}
+.original-price{
+    color: #ccc;
+    text-decoration: line-through;
+}
+.price{
+    width: 100px;
+    margin-left: 200px;
+}
+.details{
+    padding: 0%;
+    margin: 0%;
+    width: 900px;
+}
+.details h2{
+    font-size: 20px;
+}
+.Final-price{
+    padding-right: 30px;
+}
+.Title{
+    padding-right: 30px;
+}
+.summary{
+    padding-top: 40px;
+    width: 400px;
+}
+.summary h2{
+    display: flex;
+    justify-content: center;
+    border-top:5px solid skyblue;
+    border-bottom:5px solid skyblue;
+    padding: 10px;
+}
+.summary form div{
+    display: flex;
+    justify-content: center;
+    background-color:skyblue;
+}
+.summary form div input{
+    margin-top: 10px;
+    height: 40px;
+    margin: 10px;
+}
+.summary{
+    right: 0px;
+    margin-right:15px;
+}
+.summary form div button{
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+}
+#promo-code{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+.summary form{
+    padding-bottom: 40px;
+    border-bottom:5px solid skyblue;
+}
+.totals{
+    padding-top: 30px;
+}
+.totals p{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom:5px solid skyblue;
+    border-top:5px solid skyblue;
+}
+.checkout-btn{
+    background-color: skyblue;
+    border: None;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    color: #0a0a0a;
+}
+.helpline{
+    padding: 10px;
+    color: #575555ec;
+}
+.Remove{
+    border: none;
+    background-color: rgb(235, 42, 42);
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+/*
+.cart{
+    display: flex;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 90px;
+}
+.cart .cart-container{
+    margin: 30px 0;
+    padding: 20px 0;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.Title{
+    display: flex;
+    justify-content: space-between;
+}
+.Title p{
+    color: #ccc;
+    font-weight: bold;
+}
+.cart .summary{
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.cart-items img{
+    width: 300px;
+    margin-right: 20px;
+}
+.original-price{
+    color: #ccc;
+    text-decoration: line-through;
+}
+.details{
+    padding: 0%;
+    margin: 0%;
+    width: 1300px;
+}
+.details h2{
+    font-size: 20px;
+}
+.Final-price{
+    padding-right: 30px;
+}
+.Title{
+    padding-right: 30px;
+}
+.summary{
+    padding-top: 40px;
+}
+.summary h2{
+    display: flex;
+    justify-content: center;
+    border-top:5px solid skyblue;
+    border-bottom:5px solid skyblue;
+    padding: 10px;
+}
+.summary form div{
+    display: flex;
+    justify-content: center;
+    background-color:skyblue;
+}
+.summary form div input{
+    margin-top: 10px;
+    height: 40px;
+    margin: 10px;
+}
+.summary{
+    right: 0px;
+    margin-right:15px;
+}
+.summary form div button{
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+}
+.summary form{
+    padding-bottom: 40px;
+    border-bottom:5px solid skyblue;
+}
+.totals{
+    padding-top: 30px;
+}
+.totals p{
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom:5px solid skyblue;
+    border-top:5px solid skyblue;
+}
+.checkout-btn{
+    background-color: skyblue;
+    border: None;
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    color: #0a0a0a;
+}
+.helpline{
+    padding: 10px;
+    color: #575555ec;
+}
+.Remove{
+    border: none;
+    background-color: rgb(235, 42, 42);
+    border-radius: 5px;
+}*/
